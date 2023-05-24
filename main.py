@@ -133,12 +133,12 @@ if __name__ == "__main__":
         writer = csv.writer(csvfile)
         writer.writerow(
             [
-                "RNC",
-                "utranCell",
-                "latitude_Utrancell",
-                "longitude_utrancell",
-                "Target RNC",
-                "Target utranCell",
+                "Source",
+                "Cells",
+                "latitude_Cells",
+                "longitude_Cells",
+                "Target",
+                "Target_Cells",
                 "latitude_target",
                 "longitude_target",
                 "Distance",
